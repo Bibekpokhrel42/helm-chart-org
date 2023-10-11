@@ -35,7 +35,6 @@ Get the Prometheus server URL by running these commands in the same shell:
 
 {{ if .Values.alertmanager.enabled }}
 The Prometheus alertmanager can be accessed via port {{ .Values.alertmanager.service.port }} on the following DNS name from within your cluster:
-{{ template "prometheus.alertmanager.fullname" . }}.{{ .Release.Namespace }}.svc.cluster.local
 
 {{ if .Values.alertmanager.ingress.enabled -}}
 From outside the cluster, the alertmanager URL(s) are:
@@ -55,7 +54,6 @@ Get the Alertmanager URL by running these commands in the same shell:
   export SERVICE_IP=$(kubectl get svc --namespace {{ .Release.Namespace }} {{ template "prometheus.alertmanager.fullname" . }} -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
   echo http://$SERVICE_IP:{{ .Values.alertmanager.service.servicePort }}
 {{- else if contains "ClusterIP"  .Values.alertmanager.service.type }}
-  export POD_NAME=$(kubectl get pods --namespace {{ .Release.Namespace }} -l "app.kubernetes.io/name={{ include "alertmanager.name" .Subcharts.alertmanager }},app.kubernetes.io/instance={{ .Release.Name }}" -o jsonpath="{.items[0].metadata.name}")
   kubectl --namespace {{ .Release.Namespace }} port-forward $POD_NAME 9093
 {{- end }}
 {{- end }}

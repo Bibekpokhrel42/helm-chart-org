@@ -77,7 +77,6 @@ We truncate at 63 chars because some Kubernetes name fields are limited to this 
 Create a fully qualified alertmanager name for communicating with the user via NOTES.txt
 */}}
 
-
 {{/*
 Create a fully qualified Prometheus server name.
 We truncate at 63 chars because some Kubernetes name fields are limited to this (by the DNS naming spec).
