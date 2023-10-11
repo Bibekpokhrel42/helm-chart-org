@@ -4,6 +4,7 @@
     "tekton":               "tekton-pipelines",
     "contour":              "zerone-projectcontour",
     "prometheus":           "zerone-monitoring",
+    "prometheus-operator":           "zerone-monitoring",
     "lb-controller":        "zerone-lb-controller",
     "dns-controller":       "zerone-dns-controller",
     "tekton-controller":    "tekton-pipelines",
