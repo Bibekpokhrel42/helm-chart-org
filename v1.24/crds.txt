@@ -1,9 +1,9 @@
-https://berrybytes.github.io/helm-chart-org/packages/cert-manager/v0.8.1/cert-manager.crds.yaml
-https://berrybytes.github.io/helm-chart-org/packages/contour/v0.1.1/contour.crds.yaml
-https://berrybytes.github.io/helm-chart-org/packages/olm/v0.1.0/olm.crds.yaml
-https://berrybytes.github.io/helm-chart-org/packages/prometheus/v24.5.0/prometheus-operator.crds.yaml
-https://berrybytes.github.io/helm-chart-org/packages/sealed-secrets/v1.1.2/sealed-secrets.crds.yaml
-https://berrybytes.github.io/helm-chart-org/packages/velero/v2.32.3/velero.crds.yaml
-https://berrybytes.github.io/helm-chart-org/packages/tekton/v0.47.0/tekton.crds.yaml
-https://berrybytes.github.io/helm-chart-org/packages/external-secrets/v0.7.2/external-secrets.crds.yaml
+https://helm-chart.bibekpokhrel42.com.np/packages/cert-manager/v0.8.1/cert-manager.crds.yaml
+https://helm-chart.bibekpokhrel42.com.np/packages/contour/v0.1.1/contour.crds.yaml
+https://helm-chart.bibekpokhrel42.com.np/packages/olm/v0.1.0/olm.crds.yaml
+https://helm-chart.bibekpokhrel42.com.np/packages/prometheus/v24.5.0/prometheus-operator.crds.yaml
+https://helm-chart.bibekpokhrel42.com.np/packages/sealed-secrets/v1.1.2/sealed-secrets.crds.yaml
+https://helm-chart.bibekpokhrel42.com.np/packages/velero/v2.32.3/velero.crds.yaml
+https://helm-chart.bibekpokhrel42.com.np/packages/tekton/v0.47.0/tekton.crds.yaml
+https://helm-chart.bibekpokhrel42.com.np/packages/external-secrets/v0.7.2/external-secrets.crds.yaml
 
