@@ -7,3 +7,4 @@ https://helm-chart.bibekpokhrel42.com.np/packages/velero/v4.0.2/velero.crds.yaml
 https://helm-chart.bibekpokhrel42.com.np/packages/tekton/v0.47.0/tekton.crds.yaml
 https://helm-chart.bibekpokhrel42.com.np/packages/external-secrets/v0.7.2/external-secrets.crds.yaml
 https://helm-chart.bibekpokhrel42.com.np/packages/external-logging/v3.17.10/external-logging-crds.yaml
+https://helm-chart.bibekpokhrel42.com.np/packages/openebs/v3.9.0/openebs-crds.yaml
