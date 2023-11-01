@@ -1,10 +1,10 @@
 {
-    "sealed-secret":        "zerone-sealed-secrets",
+    "sealed-secret":        "sealed-secrets",
     "cert-manager":         "zerone-cert-manager",
     "tekton":               "tekton-pipelines",
     "contour":              "zerone-projectcontour",
     "prometheus":           "zerone-monitoring",
-    "prometheus-operator":           "zerone-monitoring",
+    "prometheus-operator":  "zerone-monitoring",
     "lb-controller":        "zerone-lb-controller",
     "dns-controller":       "zerone-dns-controller",
     "tekton-controller":    "tekton-pipelines",
