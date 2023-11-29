@@ -1,5 +1,5 @@
 {
-    "sealed-secret":        "sealed-secrets",
+    "sealed-secret":        "zerone-sealed-secrets",
     "cert-manager":         "zerone-cert-manager",
     "tekton":               "tekton-pipelines",
     "contour":              "zerone-projectcontour",
